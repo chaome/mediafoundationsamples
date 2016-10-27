@@ -47,6 +47,13 @@
 #pragma comment(lib, "mfreadwrite.lib")
 #pragma comment(lib, "mfuuid.lib")
 #pragma comment(lib, "wmcodecdspuuid.lib")
+#pragma comment(lib, "WS2_32.Lib")
+
+//and we need to input libs of live555, I added live555 projects as reference instead of copy lib files and use #pragma comment(...).
+//#pragma comment(lib, "BasicUsageEnvironment.lib")
+//#pragma comment(lib, "groupsock.lib")
+//#pragma comment(lib, "liveMedia.lib")
+//#pragma comment(lib, "UsageEnvironment.lib") 
 
 class MediaFoundationH264LiveSource :
 	public FramedSource
